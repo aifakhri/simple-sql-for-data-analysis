@@ -13,8 +13,6 @@ JOIN rental ON inventory.inventory_id = rental.inventory_id
 
 SELECT
 	rented_film.title,
-	rented_film.rental_rate,
-	rented_film.replacement_cost,
 	count(rented_film.title) as n_film,
 	sum(payment.amount) as profit_by_film
 FROM payment
