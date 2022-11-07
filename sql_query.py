@@ -18,7 +18,6 @@ SELECT
 FROM payment
 JOIN rented_film USING(rental_id)
 GROUP BY rented_film.title
-ORDER BY rented_film.title
 """
 
 rented_film_by_customer = """
