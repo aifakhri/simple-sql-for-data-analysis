@@ -1,4 +1,4 @@
-rented_film_and_profit = """
+rented_film_and_revenue = """
 WITH rented_film as (
 SELECT
 	rental.rental_id,
