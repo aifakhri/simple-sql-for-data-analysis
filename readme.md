@@ -20,3 +20,5 @@ seaborn=0.11.2
 matplotlib=3.5.2
 ```
 For the connection to the SQLite database we use the `sqlite3` library which a Python built-in library.
+#### Story
+The story of this analysis can be found in [my medium story](https://medium.com/@zeitdeuter/sql-and-python-for-data-analysis-605f255125e) 
